@@ -12,11 +12,11 @@
 // @ts-nocheck
 
 export const match = () => ({
-runStep:2
+  runStep: 2
 });
 
 export default async (data: any) => {
-console.log('running ne version of step 2')
+  console.log('running new version of step 2 updated on git')
 
-task.complete()
+  task.complete()
 }
