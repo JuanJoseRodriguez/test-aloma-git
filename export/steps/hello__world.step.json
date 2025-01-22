@@ -1,1 +1,0 @@
-{"content":{"if":"{hello: String}","do":"console.log(`hello ${data.hello}`);\n    data.greeted = true;","enabled":true,"valid":true},"json":"{\"if\":\"{hello: String}\",\"do\":\"console.log(`hello ${data.hello}`);\\n    data.greeted = true;\",\"enabled\":true,\"valid\":true}","hash":"f9bfc70153e4c9e8b7e6aec781c0602d5bd908d3f091d3068cbe8b4fbaeca2cb","name":"hello world"}

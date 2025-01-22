@@ -1,1 +1,0 @@
-{"content":{"if":"{greeted: true,}","do":"// @ts-ignore\n    task.complete();","enabled":true,"valid":true},"json":"{\"if\":\"{greeted: true,}\",\"do\":\"// @ts-ignore\\n    task.complete();\",\"enabled\":true,\"valid\":true}","hash":"82b34bc8a32fced47e3dd75c5be902176c6ea104ad8532833035a431069b8891","name":"and-done/greeting done"}
