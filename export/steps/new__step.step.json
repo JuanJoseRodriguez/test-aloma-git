@@ -1,0 +1,1 @@
+{"content":{"if":"{newStep: true}","do":"console.log('running new step ');\n    task.complete();","enabled":true,"valid":true},"json":"{\"if\":\"{newStep: true}\",\"do\":\"console.log('running new step ');\\n    task.complete();\",\"enabled\":true,\"valid\":true}","hash":"14d4c6e10b54c991b5ea0f0bdd131162beb29d373636ba9b6ad7304a5a4d0404","name":"new step"}

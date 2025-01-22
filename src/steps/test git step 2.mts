@@ -19,5 +19,6 @@ export default async (data: any) => {
   console.log('running new version of step 2 updated on git ')
   console.log('new log')
   console.log('another new log')
-  task.complete()
+
+  data.newStep = true
 }
