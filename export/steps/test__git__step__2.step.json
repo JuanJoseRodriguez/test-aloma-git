@@ -1,0 +1,1 @@
+{"content":{"if":"{runStep: 2}","do":"console.log('running ne version of step 2');\n    task.complete();","enabled":true,"valid":true},"json":"{\"if\":\"{runStep: 2}\",\"do\":\"console.log('running ne version of step 2');\\n    task.complete();\",\"enabled\":true,\"valid\":true}","hash":"2581f4a31a58d3f2254b92a4e0b8e79981545d0b17d622d156de6c704183f6e8","name":"test git step 2"}

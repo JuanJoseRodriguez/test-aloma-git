@@ -1,0 +1,1 @@
+{"content":{"if":"{runStep: 1}","do":"console.log('running step 1');\n    data.runStep = 2;","enabled":true,"valid":true},"json":"{\"if\":\"{runStep: 1}\",\"do\":\"console.log('running step 1');\\n    data.runStep = 2;\",\"enabled\":true,\"valid\":true}","hash":"c74d457f9add95278bb749c39f06c81308c8ec48e070f8ed49b6efadc0b836ff","name":"test git step 1"}
