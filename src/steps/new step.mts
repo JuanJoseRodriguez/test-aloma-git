@@ -1,19 +1,21 @@
 /**
   Name:       new step
 
-  ID:         rxt3kuzr51awlsramc5frskk190qqk44
-  Version:    0
+  ID:         eqi682cfpkgz3l56hlxar6sp8ighpc73
+  Version:    1
   Path:       ./src/steps/new step.mts
-  UpdatedAt:  2025-01-22T15:26:58.588Z
+  UpdatedAt:  2025-01-21T15:43:33.496Z
 
-  Workspace:  e-n66kgam328dn6onso80pt9v1qoxiss1f
+  Workspace:  e-ti98qpqcnljs4u421c5npsq8r6306zgy
 */
 
 // @ts-nocheck
 
-export const match = () => ({newStep: true});
+export const match = () => ({
+finalStep : true
+});
 
 export default async (data: any) => {
-console.log('running new step ');
-    task.complete();
+console.log('final step') 
+task.complete()
 }

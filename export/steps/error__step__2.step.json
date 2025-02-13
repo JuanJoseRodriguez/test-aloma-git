@@ -1,0 +1,1 @@
+{"content":{"if":"{errorStep: 2}","do":"throw new Error('Testing errors notifications step 2..');","enabled":true,"valid":true},"json":"{\"if\":\"{errorStep: 2}\",\"do\":\"throw new Error('Testing errors notifications step 2..');\",\"enabled\":true,\"valid\":true}","hash":"08ec7f0d366f62e001b8a2abc669dbe4c10ad80a3bbcf95b2ce5bdcdc192ed0b","name":"error step 2"}
