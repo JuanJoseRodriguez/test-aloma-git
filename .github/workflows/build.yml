@@ -1,0 +1,19 @@
+name: Aloma Notification
+
+on:
+  push:
+    branches:
+      - "*"
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Aloma notification
+        env:
+          ALOMA_WEBHOOK: "https://connect.aloma.io/event/pqse544gdfo071octgc06p6vsrzuqsutFQPAZYMS"
+        run: |
+          curl -X POST -H 'Content-type: application/json' \
+            -d "{\"event\": \"push\", \"ref\": \"$GITHUB_REF\", \"repository\": \"$GITHUB_REPOSITORY\", \"commit\": \"$GITHUB_SHA\"}" \
+            "$ALOMA_WEBHOOK"
+      
