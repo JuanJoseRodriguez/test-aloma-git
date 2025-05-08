@@ -15,4 +15,5 @@ export const match = () => ({gitAction: 'push'});
 
 export default async (data: any) => {
 console.log(' updated : this is the first test step')
+data.gitStep = 2
 }

@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Send Aloma notification
         env:
-          ALOMA_WEBHOOK: "https://connect.aloma.io/event/pqse544gdfo071octgc06p6vsrzuqsutFQPAZYMS"
+          ALOMA_WEBHOOK: "https://connect.aloma.io/event/qt961wh4sdm7uce9o9yjo0en23os2lht30BSFP2H"
         run: |
           curl -X POST -H 'Content-type: application/json' \
             -d "{\"event\": \"push\", \"ref\": \"$GITHUB_REF\", \"repository\": \"$GITHUB_REPOSITORY\", \"commit\": \"$GITHUB_SHA\"}" \
